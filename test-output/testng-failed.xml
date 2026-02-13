@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="chrome.keys.KeysTests">
+      <class name="chrome.dropdown.DropdownTests">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="testSelectMultipleOptions"/>
           <include name="recordFailure"/>
           <include name="goHome"/>
-          <include name="testBackspace"/>
         </methods>
-      </class> <!-- chrome.keys.KeysTests -->
+      </class> <!-- chrome.dropdown.DropdownTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -12,7 +12,7 @@ public class FileUploadTests extends BaseTestClass {
 	@Test
 	public void testFileUpload() {
 		FileUploadPage uploadPage = homePage.clickFileUpload();
-		uploadPage.uploadFile("localPath/nameOfFile");
-		assertEquals(uploadPage.getUploadedFiles(), "nameOfFile", "Uploaded files incorrect");
+		uploadPage.uploadFile("/Users/trejodev/Desktop/Developer/QA/Cv.pdf");
+		assertEquals(uploadPage.getUploadedFiles(), "Cv.pdf", "Uploaded files incorrect");
 	}
 }

@@ -2,39 +2,39 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-07T17:08:40 CET" name="Default suite" finished-at="2026-01-07T17:08:46 CET" duration-ms="5218">
+  <suite started-at="2026-02-13T11:31:00 CET" name="Default suite" finished-at="2026-02-13T11:33:30 CET" duration-ms="150068">
     <groups>
     </groups>
-    <test started-at="2026-01-07T17:08:40 CET" name="Default test" finished-at="2026-01-07T17:08:46 CET" duration-ms="5218">
-      <class name="chrome.login.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:chrome.login.LoginTest@1ab3a8c8]" started-at="2026-01-07T17:08:41 CET" name="setUp" finished-at="2026-01-07T17:08:45 CET" duration-ms="4040" status="PASS">
+    <test started-at="2026-02-13T11:31:00 CET" name="Default test" finished-at="2026-02-13T11:33:30 CET" duration-ms="150068">
+      <class name="chrome.cokies.CookieTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:chrome.cokies.CookieTests@14dd9eb7]" started-at="2026-02-13T11:31:00 CET" name="setUp" finished-at="2026-02-13T11:31:03 CET" duration-ms="2883" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:chrome.login.LoginTest@1ab3a8c8]" started-at="2026-01-07T17:08:45 CET" name="goHome" finished-at="2026-01-07T17:08:45 CET" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:chrome.cokies.CookieTests@14dd9eb7]" started-at="2026-02-13T11:31:03 CET" name="goHome" finished-at="2026-02-13T11:31:03 CET" duration-ms="132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="testSuccesfullLogin()[pri:0, instance:chrome.login.LoginTest@1ab3a8c8]" started-at="2026-01-07T17:08:45 CET" name="testSuccesfullLogin" finished-at="2026-01-07T17:08:46 CET" duration-ms="936" status="PASS">
+        <test-method signature="testDeleteCookie()[pri:0, instance:chrome.cokies.CookieTests@14dd9eb7]" started-at="2026-02-13T11:31:03 CET" name="testDeleteCookie" finished-at="2026-02-13T11:33:30 CET" duration-ms="146887" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSuccesfullLogin -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:chrome.login.LoginTest@1ab3a8c8]" started-at="2026-01-07T17:08:46 CET" name="recordFailure" finished-at="2026-01-07T17:08:46 CET" duration-ms="1" status="PASS">
+        </test-method> <!-- testDeleteCookie -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:chrome.cokies.CookieTests@14dd9eb7]" started-at="2026-02-13T11:33:30 CET" name="recordFailure" finished-at="2026-02-13T11:33:30 CET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testSuccesfullLogin status=SUCCESS method=LoginTest.testSuccesfullLogin()[pri:0, instance:chrome.login.LoginTest@1ab3a8c8] output={null}]]]>
+                <![CDATA[[TestResult name=testDeleteCookie status=SUCCESS method=CookieTests.testDeleteCookie()[pri:0, instance:chrome.cokies.CookieTests@14dd9eb7] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:chrome.login.LoginTest@1ab3a8c8]" started-at="2026-01-07T17:08:46 CET" name="tearDown" finished-at="2026-01-07T17:08:46 CET" duration-ms="98" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:chrome.cokies.CookieTests@14dd9eb7]" started-at="2026-02-13T11:33:30 CET" name="tearDown" finished-at="2026-02-13T11:33:30 CET" duration-ms="141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- chrome.login.LoginTest -->
+      </class> <!-- chrome.cokies.CookieTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

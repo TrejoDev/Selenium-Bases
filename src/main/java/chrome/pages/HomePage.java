@@ -52,6 +52,10 @@ public class HomePage {
 		clickLink("WYSIWYG Editor");
 		return new WysiwygEditorPage(driver);
 	}
+	public NestedFramesPage clickNestedFRame() {
+		clickLink("Nested Frames");
+		return new NestedFramesPage(driver);
+	}
 
 	public DynamicLoadingPage clickDynamicLoading() {
 		clickLink("Dynamic Loading");
@@ -72,8 +76,22 @@ public class HomePage {
 		clickLink("Infinite Scroll");
 		return new InfiniteScrollPage(driver);
 	}
+	
+	public ShiftingContentPage clickShiftingContent() {
+		clickLink("Shifting Content");
+		return new ShiftingContentPage(driver);
+	}
+	
+	public ForgotPasswordPage clickForgotPassword() {
+		clickLink("Forgot Password");
+		return new ForgotPasswordPage(driver);
+	}
+	public HorizontalSliderPage clickHorizontalSlider() {
+		clickLink("Horizontal Slider");
+		return new HorizontalSliderPage(driver);
+	}
 
-	public void clickLink(String linkText) {
+	private void clickLink(String linkText) {
 		driver.findElement(By.linkText(linkText)).click();
 	}
 

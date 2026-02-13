@@ -12,8 +12,7 @@ public class ContextMenuTests extends BaseTestClass {
 	@Test
 	public void testGetTextFromAlert() {
 		ContextMenuPage contextMenuPage = homePage.clickContextMenu();
-		contextMenuPage.rightClickMenu();
-
-		assertTrue(contextMenuPage.alert_getText().contains("You selected a context menu"));
+		String alertText = contextMenuPage.rightClickOnMenu();
+		assertTrue(alertText.contains("You selected a context menu"));
 	}
 }

@@ -6,10 +6,6 @@ import chrome.BaseTestClass;
 
 public class JavaScriptTests extends BaseTestClass {
 
-	/************************************************************
-	 * NOTE: We did not add assertions to these tests in the video
-	 ************************************************************/
-
 	@Test
 	public void testScrollToTable() {
 		homePage.clickLargeAndDeepDom().scrollToTable();
